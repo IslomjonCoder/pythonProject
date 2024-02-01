@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2abd388-86ce-40cc-8b11-d729860d6d56" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe/consumers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe/migrations/0002_alter_menu_cafe_alter_product_menu_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe/routing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe/static/room.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe/templates/room.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cafe_logos/pngtree-restaurant-logo-design-vector-template-png-image_5441058.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/cafe_logos/restaurant-logo-design-template-free-vector.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/menu_images/CN5Dej16851653420818_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/menu_images/lamb-shashlik-recipe-2355654-Hero_01-eae5bbb2db2849bf861966647c5a09b8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/menu_images/photo_2022-05-11_04-40-15-1280x640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/1042699_3614836450.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/1650401702516-IMG_20220420_015401_071.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/7604ac10-76ba-4b9f-9eeb-851a843e8ae8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/b17ee29a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product_images/hq720.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/room.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2bizauDEWSZK1rM8Xdw3V8pW0nk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/islom/PycharmProjects/pythonProject"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\islom\PycharmProjects\pythonProject" />
+      <recent name="C:\Users\islom\PycharmProjects\pythonProject\static" />
+      <recent name="C:\Users\islom\PycharmProjects\pythonProject\config" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-67fca87a943a-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.259" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2abd388-86ce-40cc-8b11-d729860d6d56" name="Changes" comment="" />
+      <created>1706712754839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706712754839</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
