@@ -5,33 +5,63 @@
     <title>Lobby</title>
 </head>
 <body>
-    <h1>Let's Chat</h1>
-    <div id="error-container">
-        <h1>Error</h1>
-        <p id="error-message"></p>
-    </div>
-    <script type="text/javascript">
-        try {
-            console.log('Hello, world!')
-            let url = 'ws://' + window.location.host + '/ws/socket-server/'
-            const chatsocket = new WebSocket(url)
+<h1>Let's Chat</h1>
+<div id="error-container">
+    <h1>Error</h1>
+    <p id="error-message"></p>
+</div>
+<form id="form">
+    <input type="text" name="message"/>
+</form>
 
-            chatsocket.onopen = function (e) {
-                console.log("Connection established")
-            }
+<!--<div>-->
+<!--    <input type="text" id="messageInput" placeholder="Type your message">-->
+<!--    <button onclick="sendMessage()">Send</button>-->
+<!--</div>-->
 
-            console.log('Hello, world!')
+<script type="text/javascript">
+    try {
+        console.log('Hello, world!')
+        let url = 'wss://' + window.location.host + '/ws/socket-server/'
+        const chatsocket = new WebSocket(url)
 
-            chatsocket.onmessage = function (e) {
-                let data = JSON.parse(e.data)
-                console.log("Data:", data)
-            }
-        } catch (error) {
-            console.error("An error occurred:", error);
-            // Display the error message in the body
-            document.getElementById('error-container').style.display = 'block'; // Show the error container
-            document.getElementById('error-message').innerHTML = error.message;
+        chatsocket.onopen = function (e) {
+            console.log("Connection established")
         }
-    </script>
+
+        console.log('Hello, world!')
+
+        chatsocket.onmessage = function (e) {
+            let data = JSON.parse(e.data)
+            console.log("Data:", data)
+        }
+
+        let form = document.getElementById('form')
+        form.addEventListener('submit', function (e) {
+            e.preventDefault()
+            let message  = e.target.message.value
+            chatsocket.send(JSON.stringify({ message: message }))
+
+           form.reset()
+        })
+
+        function sendMessage() {
+            // Get the message from the input field
+            let message = document.getElementById('messageInput').value;
+
+            // Check if the message is not empty
+            if (message.trim() !== '') {
+                // Send the message through the WebSocket
+                chatsocket.send(JSON.stringify({ message: message }));
+            }
+        }
+
+    } catch (error) {
+        console.error("An error occurred:", error);
+        // Display the error message in the body
+        document.getElementById('error-container').style.display = 'block'; // Show the error container
+        document.getElementById('error-message').innerHTML = error.message;
+    }
+</script>
 </body>
 </html>
