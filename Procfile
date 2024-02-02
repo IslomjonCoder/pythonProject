@@ -1,1 +1,1 @@
-web: gunicorn -b 0.0.0.0:8000 --access-logfile - --error-logfile - --log-level debug app:app
+web: gunicorn config.wsgi
