@@ -12,6 +12,9 @@ from .serializers import (
 from channels.layers import get_channel_layer
 from asgiref.sync import async_to_sync
 from .models import Table
+from django.shortcuts import render
+def lobby(request):
+    return  render(request,'lobby.html')
 
 
 class ProductByMenuView(generics.ListAPIView):
@@ -182,9 +185,11 @@ def update_table_and_send_message(table):
             }
         }
     )
+
+
 from django.shortcuts import render
 
-from  cafe.models import Room
+from cafe.models import Room
 
 
 def index_view(request):
