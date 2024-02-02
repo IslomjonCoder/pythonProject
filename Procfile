@@ -1,4 +1,4 @@
-web: gunicorn config.wsgi --log-file - --log-level info --bind 0.0.0.0:8000
+web: gunicorn config.wsgi --log-file - --log-level info
 
 worker: gunicorn config.wsgi --log-file - --log-level info
 
