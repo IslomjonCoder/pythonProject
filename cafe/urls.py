@@ -15,6 +15,7 @@ from .views import (
 )
 
 urlpatterns = [
+
     # path('cafes/', CafeListCreateView.as_view(), name='cafe-list-create'),
     # path('cafes/<int:pk>/', CafeDetailView.as_view(), name='cafe-detail'),
     #
@@ -40,7 +41,7 @@ urlpatterns = [
     # path('order-items/<int:pk>/', OrderItemDetailView.as_view(), name='order-item-detail'),
     #
     # path('menu/<int:menu_id>/products/', ProductByMenuView.as_view(), name='products-by-menu'),
-    path('', views.index_view, name='chat-index'),
+    path('', views.lobby, name='chat-index'),
     path('<str:room_name>/', views.room_view, name='chat-room'),
 
 ]

@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2abd388-86ce-40cc-8b11-d729860d6d56" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe/templates/lobby.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe/consumers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cafe/consumers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe/routing.py" beforeDir="false" afterPath="$PROJECT_DIR$/cafe/routing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cafe/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cafe/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +49,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "Python.consumers.executor": "Run",
+    "Python.settings.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -185,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706830572335</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1706830638900</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706830638900</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
