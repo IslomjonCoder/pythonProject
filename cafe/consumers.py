@@ -57,6 +57,7 @@ from asgiref.sync import async_to_sync
 
 class ChatConsumer(WebsocketConsumer):
     def connect(self):
+        print('hello')
         self.room_name = 'test'
         self.room_group_name = 'test'
 
@@ -73,6 +74,7 @@ class ChatConsumer(WebsocketConsumer):
         ))
 
     def receive(self, text_data=None, bytes_data=None):
+        print('receive')
         text_data_json = json.loads(text_data)
         message = text_data_json['message']
         print(message)
