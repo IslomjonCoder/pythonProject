@@ -8,7 +8,7 @@
 <h1>Let's Chat</h1>
 <script type="text/javascript">
 
-    let url = "wss://" + window.location.host + "/wss/socket-server/"
+    let url = "wss://" + window.location.host + "/ws/socket-server/"
     const chatsocket = new  WebSocket(url)
     chatsocket.onmessage = function(e){
     let data = JSON.parse(e.data)
