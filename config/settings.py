@@ -69,7 +69,8 @@ TEMPLATES = [
         },
     },
 ]
-ASGI_APPLICATION = 'config.asgi.application'
+# ASGI_APPLICATION = 'config.asgi.application'
+ASGI_APPLICATION = "config.routing.application"
 WSGI_APPLICATION = 'config.wsgi.application'
 
 # Database
@@ -83,12 +84,9 @@ DATABASES = {
 }
 CHANNEL_LAYERS = {
     "default": {
-        # memory
         "BACKEND": "channels_redis.core.RedisChannelLayer",
         "CONFIG": {
-            # "hosts": [("chatgramm.up.railway.app", 6379)],
             "hosts": [os.environ.get('REDIS_URL', 'redis://localhost:6379')],
-
         },
     },
 }
