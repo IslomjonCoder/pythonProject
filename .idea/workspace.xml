@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f2abd388-86ce-40cc-8b11-d729860d6d56" name="Changes" comment="chat websocket">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe/consumers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cafe/consumers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +75,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706712754839</updated>
-    </task>
-    <task id="LOCAL-00019" summary="chat websocket">
-      <option name="closed" value="true" />
-      <created>1706886033783</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1706886033783</updated>
     </task>
     <task id="LOCAL-00020" summary="chat websocket">
       <option name="closed" value="true" />
@@ -467,7 +460,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706975863506</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="chat websocket">
+      <option name="closed" value="true" />
+      <created>1706975993835</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1706975993835</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
