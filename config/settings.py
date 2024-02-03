@@ -87,7 +87,7 @@ CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
         "CONFIG": {
-            "hosts": [('REDIS_URL', 6379)],
+            "hosts": [('chatgram.up.railway.app', 6379)],
         },
     },
 }
