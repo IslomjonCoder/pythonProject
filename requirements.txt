@@ -6,4 +6,5 @@ daphne~=4.0.0
 asgiref~=3.7.2
 djangorestframework~=3.14.0
 pillow~=10.2.0
-asgi_redis~=1.4.3
+
+
