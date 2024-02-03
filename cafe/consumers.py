@@ -56,7 +56,7 @@ from asgiref.sync import async_to_sync
 import asyncio
 
 class ChatConsumer(WebsocketConsumer):
-    async def connect(self):
+    def connect(self):
         print('hello')
         self.room_name = 'test'
         self.room_group_name = 'test1'
