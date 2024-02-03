@@ -84,10 +84,10 @@ DATABASES = {
 CHANNEL_LAYERS = {
     "default": {
         # memory
-        "BACKEND": "channels.layers.InMemoryChannelLayer",
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
         "CONFIG": {
             # "hosts": [("chatgramm.up.railway.app", 6379)],
-            "hosts": [("127.0.0.1", 6379)],
+            "hosts": [os.environ.get("REDIS_URL", 'REDIS://localhost:6379')],
         },
     },
 }
