@@ -31,12 +31,14 @@ ALLOWED_HOSTS = ['.up.railway.app', '127.0.0.1']
 INSTALLED_APPS = [
     "daphne",
     'channels',
+    'channels_redis',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    ''
     "rest_framework",
     "cafe",
 
