@@ -67,10 +67,10 @@ class ChatConsumer(WebsocketConsumer):
         #     self.room_name,
         #     self.channel_name
         # )
-        await self.channel_layer.group_add(
-            self.room_group_name,
-            self.channel_name
-        )
+        # await self.channel_layer.group_add(
+        #     self.room_group_name,
+        #     self.channel_name
+        # )
         self.accept()
         self.send(text_data=json.dumps(
             {
