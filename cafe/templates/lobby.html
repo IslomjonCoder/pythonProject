@@ -22,14 +22,14 @@
 <script type="text/javascript">
     try {
         console.log('Hello, world!')
-        let url = 'wss://' + window.location.host + '/ws/socket-server/'
+        let url = 'ws://' + window.location.host + '/ws/chat/sa/'
         const chatsocket = new WebSocket(url)
 
         chatsocket.onopen = function (e) {
             console.log("Connection established")
         }
 
-        console.log('Hello, world!')
+        console.log('Hello, worl!')
 
         chatsocket.onmessage = function (e) {
             let data = JSON.parse(e.data)
