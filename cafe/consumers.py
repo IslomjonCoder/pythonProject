@@ -58,8 +58,8 @@ import asyncio
 class ChatConsumer(WebsocketConsumer):
     def connect(self):
         print('hello')
-        self.room_name = self.scope['url_route']['kwargs']['room_name']
-        self.room_group_name = f"chat_{self.room_name}"
+        self.room_name = 'test' # self.scope['url_route']['kwargs']['room_name']
+        self.room_group_name = "chat_test"
 
         # Add the user to the room group
         async_to_sync(self.channel_layer.group_add)(
