@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2abd388-86ce-40cc-8b11-d729860d6d56" name="Changes" comment="chat websocket" />
+    <list default="true" id="f2abd388-86ce-40cc-8b11-d729860d6d56" name="Changes" comment="chat websocket">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,14 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706712754839</updated>
-    </task>
-    <task id="LOCAL-00014" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1706830572335</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1706830572335</updated>
     </task>
     <task id="LOCAL-00015" summary="initial commit">
       <option name="closed" value="true" />
@@ -465,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706972415339</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="chat websocket">
+      <option name="closed" value="true" />
+      <created>1706973191414</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1706973191414</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
