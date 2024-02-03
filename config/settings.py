@@ -69,8 +69,7 @@ TEMPLATES = [
         },
     },
 ]
-# ASGI_APPLICATION = 'config.asgi.application'
-ASGI_APPLICATION = "config.routing.application"
+ASGI_APPLICATION = 'config.asgi.application'
 WSGI_APPLICATION = 'config.wsgi.application'
 
 # Database
