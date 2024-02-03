@@ -22,9 +22,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-_r&iy_hj#4teo_)g-8iw_64ia0k(9nhcd(&m*g9*%nu+mmaix9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.up.railway.app', '127.0.0.1',"chatgram.up.railway.app"]
+ALLOWED_HOSTS = ['.up.railway.app', '127.0.0.1', "chatgram.up.railway.app"]
 
 # Application definition
 
