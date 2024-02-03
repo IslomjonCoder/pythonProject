@@ -5,3 +5,4 @@ asgiref~=3.7.2
 daphne~=4.0.0
 pillow~=10.2.0
 gunicorn~=21.2.0
+channels-redis~=4.2.0
