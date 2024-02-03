@@ -59,7 +59,9 @@ class ChatConsumer(WebsocketConsumer):
     async def connect(self):
         print('hello')
         self.room_name = 'test'
-        self.room_group_name = 'test'
+        self.room_group_name = 'test1'
+        self.channel_name = 'test2'
+
 
         # async_to_sync(self.channel_layer.group_add)(
         #     self.room_name,
