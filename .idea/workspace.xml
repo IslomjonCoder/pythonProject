@@ -75,22 +75,6 @@
       <option name="presentableId" value="Default" />
       <updated>1706712754839</updated>
     </task>
-    <task id="LOCAL-00025" summary="chat websocket">
-      <option name="closed" value="true" />
-      <created>1706896042910</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1706896042910</updated>
-    </task>
-    <task id="LOCAL-00026" summary="chat websocket">
-      <option name="closed" value="true" />
-      <created>1706898130812</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1706898130813</updated>
-    </task>
     <task id="LOCAL-00027" summary="chat websocket">
       <option name="closed" value="true" />
       <created>1706898468300</created>
@@ -467,7 +451,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706979982280</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="chat websocket">
+      <option name="closed" value="true" />
+      <created>1706980480576</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1706980480576</updated>
+    </task>
+    <task id="LOCAL-00075" summary="chat websocket">
+      <option name="closed" value="true" />
+      <created>1706980528177</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1706980528177</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

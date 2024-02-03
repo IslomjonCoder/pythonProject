@@ -56,16 +56,22 @@ from asgiref.sync import async_to_sync
 import asyncio
 
 class ChatConsumer(WebsocketConsumer):
-    async def connect(self):
+    def connect(self):
         print('hello')
         self.room_name = self.scope['url_route']['kwargs']['room_name']
         self.room_group_name = f"chat_{self.room_name}"
 
         # Add the user to the room group
-        await self.channel_layer.group_add(
+        async_to_sync(self.channel_layer.group_add)(
             self.room_group_name,
             self.channel_name
         )
+
+        # Add the user to the room group
+        # await self.channel_layer.group_add(
+        #     self.room_group_name,
+        #     self.channel_name
+        # )
 
         # async_to_sync(self.channel_layer.group_add)(
         #     self.room_name,
