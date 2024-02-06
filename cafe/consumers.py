@@ -11,19 +11,13 @@ class ChatConsumer(AsyncWebsocketConsumer):
         print('hello', self.room_group_name)
         # add try catch hereawait self.channel_layer.group_add(
 
-        try:
-            await self.channel_layer.group_add(
-                self.room_group_name,
-                self.channel_name
-            )
-        except:
-            await self.send(text_data=json.dumps({
-                'type': 'connection_error',
-            }))
-        # await self.channel_layer.group_add(
-        #     self.room_group_name,
-        #     self.channel_name
-        # )
+        await self.channel_layer.group_add(
+            self.room_group_name,
+            self.channel_name
+        )
+
+        print('Hello2')
+
 
         await self.accept()
         await self.send(text_data=json.dumps({
@@ -32,11 +26,17 @@ class ChatConsumer(AsyncWebsocketConsumer):
         }))
 
     async def disconnect(self, close_code):
+
         # Leave the room group
         await self.channel_layer.group_discard(
             self.room_group_name,
             self.channel_name
+
         )
+
+
+
+
 
     async def receive(self, text_data):
         text_data_json = json.loads(text_data)
