@@ -18,7 +18,6 @@ class ChatConsumer(AsyncWebsocketConsumer):
 
         print('Hello2')
 
-
         await self.accept()
         await self.send(text_data=json.dumps({
             'type': 'connection_established',
@@ -27,16 +26,12 @@ class ChatConsumer(AsyncWebsocketConsumer):
 
     async def disconnect(self, close_code):
 
-        # Leave the room group
-        await self.channel_layer.group_discard(
-            self.room_group_name,
-            self.channel_name
-
-        )
-
-
-
-
+        if username:
+            # Log the disconnection event
+            print(f"User {username} disconnected.")
+        else:
+            # Log the disconnection event for anonymous users
+            print("Anonymous user disconnected.")
 
     async def receive(self, text_data):
         text_data_json = json.loads(text_data)
