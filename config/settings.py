@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-_r&iy_hj#4teo_)g-8iw_64ia0k(9nhcd(&m*g9*%nu+mmaix9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.up.railway.app', '127.0.0.1', "chatgram.up.railway.app"]
+ALLOWED_HOSTS = ['.up.railway.app', '127.0.0.1', "chatgramm.up.railway.app"]
 
 # Application definition
 
@@ -87,7 +87,7 @@ CHANNEL_LAYERS = {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
         "CONFIG": {
             # "hosts": [('127.0.0.1', 6379)],
-            "hosts": [('chatgram.up.railway.app', 6379)],
+            "hosts": [('chatgramm.up.railway.app', 6379)],
         },
     },
 }
