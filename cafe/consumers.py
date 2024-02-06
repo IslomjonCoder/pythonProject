@@ -25,7 +25,7 @@ class ChatConsumer(AsyncWebsocketConsumer):
         }))
 
     async def disconnect(self, close_code):
-
+        username = self.scope.get('user')
         if username:
             # Log the disconnection event
             print(f"User {username} disconnected.")
