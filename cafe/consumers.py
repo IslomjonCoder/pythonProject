@@ -11,10 +11,10 @@ class ChatConsumer(AsyncWebsocketConsumer):
         print('hello', self.room_group_name)
         # add try catch hereawait self.channel_layer.group_add(
 
-        # await self.channel_layer.group_add(
-        #     self.room_group_name,
-        #     self.channel_name
-        # )
+        await self.channel_layer.group_add(
+            self.room_group_name,
+            self.channel_name
+        )
 
         print('Hello2')
 

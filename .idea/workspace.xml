@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f2abd388-86ce-40cc-8b11-d729860d6d56" name="Changes" comment="chat websocket">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cafe/consumers.py" beforeDir="false" afterPath="$PROJECT_DIR$/cafe/consumers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cafe/templates/lobby.html" beforeDir="false" afterPath="$PROJECT_DIR$/cafe/templates/lobby.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,102 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706712754839</updated>
-    </task>
-    <task id="LOCAL-00042" summary="chat websocket">
-      <option name="closed" value="true" />
-      <created>1706912949232</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1706912949232</updated>
-    </task>
-    <task id="LOCAL-00043" summary="chat websocket">
-      <option name="closed" value="true" />
-      <created>1706913171703</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1706913171704</updated>
-    </task>
-    <task id="LOCAL-00044" summary="chat websocket">
-      <option name="closed" value="true" />
-      <created>1706913340976</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1706913340976</updated>
-    </task>
-    <task id="LOCAL-00045" summary="chat websocket">
-      <option name="closed" value="true" />
-      <created>1706913550935</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1706913550935</updated>
-    </task>
-    <task id="LOCAL-00046" summary="chat websocket">
-      <option name="closed" value="true" />
-      <created>1706914063754</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1706914063754</updated>
-    </task>
-    <task id="LOCAL-00047" summary="chat websocket">
-      <option name="closed" value="true" />
-      <created>1706914297084</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1706914297084</updated>
-    </task>
-    <task id="LOCAL-00048" summary="chat websocket">
-      <option name="closed" value="true" />
-      <created>1706915229080</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1706915229080</updated>
-    </task>
-    <task id="LOCAL-00049" summary="chat websocket">
-      <option name="closed" value="true" />
-      <created>1706925611020</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1706925611020</updated>
-    </task>
-    <task id="LOCAL-00050" summary="chat websocket">
-      <option name="closed" value="true" />
-      <created>1706925887357</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1706925887358</updated>
-    </task>
-    <task id="LOCAL-00051" summary="chat websocket">
-      <option name="closed" value="true" />
-      <created>1706926255704</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1706926255704</updated>
-    </task>
-    <task id="LOCAL-00052" summary="chat websocket">
-      <option name="closed" value="true" />
-      <created>1706926814848</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1706926814848</updated>
-    </task>
-    <task id="LOCAL-00053" summary="chat websocket">
-      <option name="closed" value="true" />
-      <created>1706926969235</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1706926969235</updated>
     </task>
     <task id="LOCAL-00054" summary="chat websocket">
       <option name="closed" value="true" />
@@ -470,7 +371,103 @@
       <option name="project" value="LOCAL" />
       <updated>1706990524760</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="chat websocket">
+      <option name="closed" value="true" />
+      <created>1706994756253</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1706994756253</updated>
+    </task>
+    <task id="LOCAL-00092" summary="chat websocket server">
+      <option name="closed" value="true" />
+      <created>1707249592136</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1707249592137</updated>
+    </task>
+    <task id="LOCAL-00093" summary="chat websocket">
+      <option name="closed" value="true" />
+      <created>1707250098118</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1707250098118</updated>
+    </task>
+    <task id="LOCAL-00094" summary="chat websocket">
+      <option name="closed" value="true" />
+      <created>1707250449385</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1707250449385</updated>
+    </task>
+    <task id="LOCAL-00095" summary="chat websocket">
+      <option name="closed" value="true" />
+      <created>1707250804807</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1707250804807</updated>
+    </task>
+    <task id="LOCAL-00096" summary="chat websocket">
+      <option name="closed" value="true" />
+      <created>1707251276324</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1707251276324</updated>
+    </task>
+    <task id="LOCAL-00097" summary="chat websocket">
+      <option name="closed" value="true" />
+      <created>1707251641763</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1707251641763</updated>
+    </task>
+    <task id="LOCAL-00098" summary="chat websocket">
+      <option name="closed" value="true" />
+      <created>1707252784952</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1707252784952</updated>
+    </task>
+    <task id="LOCAL-00099" summary="chat websocket">
+      <option name="closed" value="true" />
+      <created>1707253740680</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1707253740680</updated>
+    </task>
+    <task id="LOCAL-00100" summary="chat websocket">
+      <option name="closed" value="true" />
+      <created>1707254017296</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1707254017296</updated>
+    </task>
+    <task id="LOCAL-00101" summary="chat websocket">
+      <option name="closed" value="true" />
+      <created>1707254023762</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1707254023762</updated>
+    </task>
+    <task id="LOCAL-00102" summary="chat websocket">
+      <option name="closed" value="true" />
+      <created>1707254342151</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1707254342151</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
